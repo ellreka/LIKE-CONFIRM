@@ -14,7 +14,7 @@ function check_like(){
 
 function ObserveStream(){
 
-	var observer = new MutationObserver(hide_like);
+	var observer = new MutationObserver(check_like);
 
 	observer.observe(document.getElementsByClassName('stream-items')[0], {
 	    attributes: true,
