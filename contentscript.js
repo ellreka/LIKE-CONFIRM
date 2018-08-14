@@ -22,12 +22,13 @@ function ObserveStream(){
 	});
 	console.log("observe");
   check_like();
-} 
+}
 
 var observer = new MutationObserver(ObserveStream);
 
 observer.observe(document.getElementsByTagName("body")[0], {
-    attributes: true
+  attributes: true,
+  childList: true,
 });
 
 
