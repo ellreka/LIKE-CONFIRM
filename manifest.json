@@ -9,5 +9,8 @@
           "matches":  ["https://twitter.com/*"],
           "js": ["jquery-3.2.1.min.js","contentscript.js"]
       }
-  ]
+  ],
+  "icons" : {
+    "128": "icon128.png"
+  }
 }
