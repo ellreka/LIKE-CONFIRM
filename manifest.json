@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "TWITTER LIKE CONFIRM",
   "description": "Will you really press the like button?",
-  "version": "0.1.0",
+  "version": "0.1.1",
 
   "content_scripts": [
       {

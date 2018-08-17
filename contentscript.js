@@ -2,7 +2,7 @@ function check_like(){
   var elements = $('.ProfileTweet-actionButton.js-actionButton.js-actionFavorite')
   elements.off('click');
   elements.on('click',function(){
-    var result = confirm("Will you really press the like button?");
+    var result = confirm("Will you really press the like button?\n本当にいいねしますか？");
       if(result){
         console.log("OK")
       }else{
